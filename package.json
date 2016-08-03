@@ -1,0 +1,48 @@
+{
+  "name": "otherlevelsapp",
+  "version": "1.0.0",
+  "description": "Otherlevels color swatch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justin858/otherlevelscolor.git"
+  },
+  "keywords": [
+    "Angular",
+    "1.x",
+    "color",
+    "swatch"
+  ],
+  "author": "Justin Hu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justin858/otherlevelscolor/issues"
+  },
+  "homepage": "https://github.com/justin858/otherlevelscolor#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "method-override": "^2.3.6",
+    "mongoose": "^4.5.8",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-compass": "^1.1.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-htmlmin": "^2.0.0",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-wiredep": "^3.0.1",
+    "jshint-stylish": "^2.2.0"
+  }
+}

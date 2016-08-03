@@ -1,0 +1,15 @@
+<div class="swatch row">
+  <div class="col-md-4 offset-md-4 col-sm-6 offset-sm-2">
+  <h1>{{ name }}</h1>
+  <div class="shades-container">
+    <div ng-repeat="shade in shades" class="shade" style="background-color:{{shade.hex}}">
+      <span>{{ shade.name }}</span><span class="pull-right">{{ shade.hex }}</span>
+    </div>
+  </div>
+  <div class="accents-container">
+    <div ng-repeat="accent in accents" class="accent" style="background-color:{{accent.hex}}">
+      <span>{{ accent.name }}</span><span class="pull-right">{{ accent.hex }}</span>
+    </div>
+  </div>
+  <div>
+</div>
